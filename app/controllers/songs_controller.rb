@@ -2,6 +2,7 @@ class SongsController < ApplicationController
   def index
     if params[:artist_id]
       @songs = Artist.find(params[:artist_id]).songs 
+      binding.pry
     else 
       @songs = Song.all 
     end 
