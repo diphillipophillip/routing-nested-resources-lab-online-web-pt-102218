@@ -1,7 +1,7 @@
 class SongsController < ApplicationController
   def index
     if params[:artist_id]
-      @song = 
+      @songs = Artist.find()
   end
 
   def show
