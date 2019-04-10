@@ -5,4 +5,5 @@ end
 
   resources :songs, only: [:index, :show, :new, :create, :edit, :update]
 
+  root
 end
