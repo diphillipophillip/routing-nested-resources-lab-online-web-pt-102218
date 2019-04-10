@@ -1,6 +1,6 @@
 class SongsController < ApplicationController
   def index
-    if params[:author_id]
+    if params[:artist_id]
   end
 
   def show
